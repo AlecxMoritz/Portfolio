@@ -1,0 +1,115 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background-color: rgb(22, 22, 22);
+}
+
+/* The hero image */
+.heroImage {
+    background-image: url("nebulaBackground.jpg");
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.carousel-inner {
+    width: 80%;
+    height: 43em;
+    margin: auto;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: 50em;
+}
+
+.contentBox {
+    width: 85%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    color: white;
+    background-color: rgb(93, 93, 94);
+    opacity: .6;
+    border-radius: 2%;
+}
+
+/* WEB DEVELOPMENT */
+
+
+.project {
+    background-color: rgb(93, 93, 94);
+    opacity: .6;
+    height: 70em;
+    width: 80%;
+    border-radius: 2%;
+    margin: auto;
+    padding: 2em;
+    color:  white;
+}
+
+.projectHeader {
+    padding: 1em;
+    opacity: initial;
+
+}
+
+.projectFlavorText {
+    padding: 1em;
+
+}
+
+#mechaHut {
+    width: 85%;
+    height: 70%;
+    border-radius: 2%;
+}
+
+#ghosty {
+    width: 85%;
+    height: 70%;
+    border-radius: 2%;
+}
+
+#pokeApi {
+    width: 80%;
+    height: 70%;
+    border-radius: 2%;
+}
+
+#footer {
+    color: rgb(202, 200, 200);
+}
+
+#footerBar {
+    background-color: rgb(69, 27, 90)
+}
+
+
+hr {
+    border-color: rgb(165, 112, 191 )
+}
