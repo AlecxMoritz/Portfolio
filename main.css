@@ -119,3 +119,14 @@ body, html {
 hr {
     border-color: rgb(165, 112, 191 )
 }
+
+.formBox {
+    width: 80%;
+    height: 48%;
+    padding: 2em;
+    color: white;
+    background-color: rgb(93, 93, 94);
+    opacity: .6;
+    border-radius: 2%;
+    margin: auto;
+}
