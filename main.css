@@ -64,6 +64,26 @@ body, html {
     color: white;
 }
 
+
+#recDev {
+        margin: auto;
+        margin-top: -6em;
+        font-size: .6em
+}
+
+#myCarousel {
+    height: 20em;
+    margin-top: 1em;
+}
+
+
+.carousel-caption {
+    font-size: 1em;
+    position: relative;
+    top: .2em;
+    left: 0em;
+}
+
 .carousel-inner {
     width: 80%;
     height: 43em;
@@ -160,13 +180,11 @@ hr {
 }
 
 .formBox {
-    width: 80%;
+    width: 90%;
     height: 50%;
-    padding-left: 28%;
     padding-top: 4%;
     color: white;
     background-color: transparent;
-    opacity: .6;
     border-radius: 2%;
     margin: auto;
     
