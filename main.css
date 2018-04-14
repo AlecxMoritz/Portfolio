@@ -9,18 +9,67 @@ body, html {
 breakpoint for carousel padding
 */
 
-@media only screen and (min-width: 450) {
+/* carousel breakpoints */
+
+/* @media only screen and (min-width: 450) {
+    #myCarousel {height: 2px!important;}
+} */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #myCarousel {
+        height: 50vw;  /* not working yet */
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    #myCarousel {
+        height: 45vw;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    #myCarousel {
+        height: 30vw;
+    }
+}
+
+/* @media only screen and (min-width: 1200) {
     #myCarousel {height: 25em!important;}
+} *
+
+/* footer padding breakpoinst */
+
+@media only screen and (min-width: 300px ) {
+    #footer {margin-top: 0em!important;position: relative; }
 }
 
-@media only screen and (min-width: 950px)  {
-    #footer {margin-top: 10em!important;}
-    #myCarousel {}
+@media only screen and (min-width: 450px ) {
+    #footer {margin-top: 0em!important;position: relative;;}
 }
 
-@media only screen and (min-width: 1250px ) {
+@media only screen and (min-width: 590px ) {
+    #footer {margin-top: 0em!important;position: relative; top: }
+}
+
+@media only screen and (min-width: 700px ) {
+    #footer {margin-top: 0em!important;position: relative; top: }
+}
+/* @media only screen and (min-width: 1250px ) {
     #footer {margin-top: 20em!important;}
-}
+} */
 /* mobile breakpoint
 @media only screen and (max-width: 500px){
     ghosty {
@@ -86,21 +135,15 @@ breakpoint for carousel padding
         font-size: .6em
 }
 
-#myCarousel {
-    height: 20em;
-    margin-top: 1em;
-}
+
 
 #carousel-indicators {
-    position: fixed;
-    float: bottom;
+    
 }
 
 .carousel-caption {
     font-size: 1em;
     position: relative;
-    top: .2em;
-    left: 0em;
 }
 
 .carousel-inner {
