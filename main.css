@@ -5,101 +5,6 @@ body, html {
     background-color: rgb(22, 22, 22);
 }
 
-/*
-breakpoint for carousel padding
-*/
-
-/* carousel breakpoints */
-
-/* @media only screen and (min-width: 450) {
-    #myCarousel {height: 2px!important;}
-} */
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-
-
-
-
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    #myCarousel {
-        height: 50vw;  /* not working yet */
-    }
-}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-    #myCarousel {
-        height: 45vw;
-    }
-}
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
-}
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
-    #myCarousel {
-        height: 30vw;
-    }
-}
-
-/* @media only screen and (min-width: 1200) {
-    #myCarousel {height: 25em!important;}
-} *
-
-/* footer padding breakpoinst */
-
-@media only screen and (min-width: 300px ) {
-    #footer {margin-top: 0em!important;position: relative; }
-}
-
-@media only screen and (min-width: 450px ) {
-    #footer {margin-top: 0em!important;position: relative;;}
-}
-
-@media only screen and (min-width: 590px ) {
-    #footer {margin-top: 0em!important;position: relative; top: }
-}
-
-@media only screen and (min-width: 700px ) {
-    #footer {margin-top: 0em!important;position: relative; top: }
-}
-/* @media only screen and (min-width: 1250px ) {
-    #footer {margin-top: 20em!important;}
-} */
-/* mobile breakpoint
-@media only screen and (max-width: 500px){
-    ghosty {
-    width: 85%;
-    height: 1vw;
-    border-radius: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-} 
-
-/* @media only screen and (max-width: 500px){
-#ghosty {
-    width: 10%;
-    height: 10px;
-    border-radius: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-}
-@media only screen and (max-width: 500px){
-#pokeApi {
-    width: 80%;
-    height: 60%;
-    border-radius: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-} */
-
 /* contact box collapse */
 
 @media only screen and (max-width: 1000px){
@@ -136,21 +41,14 @@ breakpoint for carousel padding
 }
 
 
+    .carousel-inner {
+        width: 80%;
+        margin: auto
+    }
 
-#carousel-indicators {
-    
-}
 
-.carousel-caption {
-    font-size: 1em;
-    position: relative;
-}
 
-.carousel-inner {
-    width: 80%;
-    height: 43em;
-    margin: auto;
-}
+
 
 
 .center {
@@ -159,13 +57,6 @@ breakpoint for carousel padding
     margin-right: auto;
 }
 
-.projectImage {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 75%;
-        height: 50em;
-}
 
 .contentBox {
     width: 85%;
@@ -183,15 +74,34 @@ breakpoint for carousel padding
 
 
 .project {
-    background-color: rgb(93, 93, 94);
-    opacity: .6;
-    height: 70em;
+    background-color: rgb(49, 49, 49);
+    min-height: 30em;
     width: 80%;
-    border-radius: 2%;
+    border-radius: 5px;
+    padding: auto;
     margin: auto;
-    padding: 2em;
+    margin-bottom: 1em;
     color:  white;
+    padding: 2em
 }
+
+.projectImage {
+    min-height: 8em;
+    width: 15em;
+    max-width: 20em;
+    border-radius: 5px;
+   
+}
+
+.projectImageWrapper {
+    min-height: 8em;
+    width: 15em;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+
 
 .projectHeader {
     padding: 1em;
@@ -199,42 +109,18 @@ breakpoint for carousel padding
 
 }
 
-.projectFlavorText {
-    padding: 1em;
 
-}
 
-#mechaHut {
-    width: 85%;
-    height: 60%;
-    border-radius: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
 
-#ghosty {
-    width: 85%;
-    height: 60%;
-    border-radius: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-#pokeApi {
-    width: 80%;
-    height: 60%;
-    border-radius: 2%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
 
 #footer {
-    margin-top: 5%;
+    
     color: rgb(202, 200, 200);
 }
 
 #footerBar {
-    background-color: rgb(69, 27, 90)
+    background-color: rgb(69, 27, 90);
+    
 }
 
 
