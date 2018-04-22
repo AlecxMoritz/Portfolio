@@ -76,7 +76,7 @@ body, html {
 .project {
     background-color: rgb(49, 49, 49);
     min-height: 30em;
-    width: 80%;
+    width: 50%;
     border-radius: 5px;
     padding: auto;
     margin: auto;
@@ -86,20 +86,14 @@ body, html {
 }
 
 .projectImage {
-    min-height: 8em;
-    width: 15em;
-    max-width: 20em;
+    min-height: 8vw;
+    width: 37vh;
+    
     border-radius: 5px;
+    margin: 1em
    
 }
 
-.projectImageWrapper {
-    min-height: 8em;
-    width: 15em;
-    border-radius: 5px;
-    margin: auto;
-    
-}
 
 
 
