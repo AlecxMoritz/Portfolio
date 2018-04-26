@@ -8,6 +8,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../main.css">
     <title>AM: About</title>
 </head>
@@ -18,190 +24,196 @@
                   <p style="font-size: 1em">Indianapolis Based Developer</p>
                 </div>
               </div>
-              <!-- nav bar start -->
-              <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Alecx Moritz</a>
-                  </div>
-              
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                      <li class="active"><a href="../index.html">Home<span class="sr-only">(current)</span></a></li>
-                      <li><a href="./webDevelopment.html">Web Development</a></li>
-                      <li><a href="./resume.html">Resume</a></li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="./about.html">About</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="./blog.html">Blog</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="./contact.html">Contact</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                    
-                  </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav>
+              <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark secondary-color">
 
-
-
-
-              <!-- nav bar end -->
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Alecx Moritz</a>
+    
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+    
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./webDevelopment.html">Web Development</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume.html">Resume</a>
+                </li>
+    
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./about.html">About</a>
+                        <a class="dropdown-item" href="./contact.html">Contact</a>
+                        
+                    </div>
+                </li>
+    
+            </ul>
+            <!-- Links -->
+    
+        </div>
+        <!-- Collapsible content -->
+    
+    </nav>
+    <!--/.Navbar-->
         <br>
         <br>   
         <br>
 
-        <section class="contentBox">
-                            <p id="aboutAlecx"><center>My name is Alecx Moritz. I graduated in 2012 from Westfield High School as a twelve-year senior. My major areas of study were art, music, and history. I began my fascination with coding when I was about twelve, and I started to build maps for a game I played called Furcadia. Years passed and the obsession settled into a hobby, but I was never quite satisfied with where I was heading. After highschool I went into the workforce as a delivery driver for Domino's Pizza, and briefly was a student at Ivy Tech. I eventually left Domino's after my manager training was put on indefinite pause. I then began working as a cook on the St. Vincent West hospital campus.<br><br>
-        I then settled into a job as a delivery driver in fall of 2014 at Jimmy John's, and six months later I became an assistant manager, and later a general manager. I learned quite a bit during my time with JJ's, and would say I am quite proud of my accomplisments there; however, while I enjoyed this position, it was not my passion, and left me trying to pursue technology and coding as a hobby.<br><br>
-        I had always known traditional school environments were not for me. Luckily my mom had found out about the Eleven-Fifty Academy, and told me I should look into it. Also luckily, I did. I made an interview appointment, and less than half-way through my interview, I knew I was in the right place, and it would be just a question of getting all my finances straight so I could attend.<br><br>
-        I am currently learning JavaScript, HTML, and CSS, and hope to pick up many more languages by the time I graduate in May.
-        After graduation I hope to continue my learning whith more about game development and security.</center></p>
-
-        </section>
-
-        
+                      <!--Card Default-->
+        <div style="max-width: 90%;margin: auto;" class="card mdb-color lighten-2 text-center z-depth-2">
+                <div class="card-body">
+                    <p class="white-text mb-0">My name is Alecx Moritz. I graduated in 2012 from Westfield High School as a twelve-year senior. My major areas of study were art, music, and history. I began my fascination with coding when I was about twelve, and I started to build maps for a game I played called Furcadia. Years passed and the obsession settled into a hobby, but I was never quite satisfied with where I was heading. After highschool I went into the workforce as a delivery driver for Domino's Pizza, and briefly was a student at Ivy Tech. I eventually left Domino's after my manager training was put on indefinite pause. I then began working as a cook on the St. Vincent West hospital campus.<br><br>
+                        I then settled into a job as a delivery driver in fall of 2014 at Jimmy John's, and six months later I became an assistant manager, and later a general manager. I learned quite a bit during my time with JJ's, and would say I am quite proud of my accomplisments there; however, while I enjoyed this position, it was not my passion, and left me trying to pursue technology and coding as a hobby.<br><br>
+                        I had always known traditional school environments were not for me. Luckily my mom had found out about the Eleven-Fifty Academy, and told me I should look into it. Also luckily, I did. I made an interview appointment, and less than half-way through my interview, I knew I was in the right place, and it would be just a question of getting all my finances straight so I could attend.<br><br>
+                        I am currently learning JavaScript, HTML, and CSS, and hope to pick up many more languages by the time I graduate in May.
+                        After graduation I hope to continue my learning whith more about game development and security.</p>
+                </div>
+            </div>
+            <!--/.Card Default-->
         <br>
         <br>
         <br>
         <br>
       <!--Footer-->
-<footer class="page-footer font-small unique-color-dark pt-0" id="footer">
+      <footer class="page-footer font-small unique-color-dark pt-0" id="footer">
 
-  <div id="footerBar">
-      <div class="container">
-          <!--Grid row-->
-          <div class="row py-4 d-flex align-items-center">
-
-              <!--Grid column-->
-              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                  <h6 class="mb-0 transparent-text">  </h6>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-md-6 col-lg-7 text-center text-md-right">
-                  <!--Facebook-->
-                  <a class="fb-ic ml-0">
-                      <i class="fa fa-facebook white-text mr-lg-4"> </i>
-                  </a>
-                  <!--Twitter-->
-                  <a class="tw-ic">
-                      <i class="fa fa-twitter white-text mr-lg-4"> </i>
-                  </a>
-                  <!--Google +-->
-                  <a class="gplus-ic">
-                      <i class="fa fa-google-plus white-text mr-lg-4"> </i>
-                  </a>
-                  <!--Linkedin-->
-                  <a class="li-ic">
-                      <i class="fa fa-linkedin white-text mr-lg-4"> </i>
-                  </a>
-                  <!--Instagram-->
-                  <a class="ins-ic">
-                      <i class="fa fa-instagram white-text mr-lg-4"> </i>
-                  </a>
-              </div>
-              <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-      </div>
-  </div>
-
-  <!--Footer Links-->
-  <div class="container mt-5 mb-4 text-center text-md-left">
-      <div class="row mt-3">
-
-          <!--First column-->
-          <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-              <h6 class="text-uppercase font-weight-bold">
-                  <strong>Alecx Moritz</strong>
-              </h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>Indianapolis based web developer and Furcadia dream weaver.</p>
-          </div>
-          <!--/.First column-->
-
-          <!--Second column-->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase font-weight-bold">
-                  <strong>PROJECTS</strong>
-              </h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                  <a href="./webDevelopment.html">Web Development</a>
-              </p>
-              <p>
-                  <a href="#"></a>
-              </p>
-              <p>
-                  <a href="#!"> </a>
-              </p>
-              <p>
-                  <a href="#!"> </a>
-              </p>
-          </div>
-          <!--/.Second column-->
-
-          <!--Third column-->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase font-weight-bold">
-                  <strong>LINKS</strong>
-              </h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                  <a href="https://github.com/AlecxMoritz" target="blank">github</a>
-              </p>
-              <p>
-                  <a href="https://www.linkedin.com/in/alecx-moritz-81a1b615a/" target="blank">LinkedIn</a>
-              </p>
-              <p>
-                  <a href="https://codepen.io/ghastlyboi/" target="blank">CodePen</a>
-              </p>
-              <p>
-                  <a href="resume.html">Resume</a>
-              </p>
-          </div>
-          <!--/.Third column-->
-
-          <!--Fourth column-->
-          <div class="col-md-4 col-lg-3 col-xl-3">
-              <h6 class="text-uppercase font-weight-bold">
-                  <strong>Contact</strong>
-              </h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                  <i class="fa fa-home mr-3"></i>Indianapolis, IN</p>
-              <p>
-                  <i class="fa fa-envelope mr-3"></i>alecxmoritz7@gmail.com</p>
-              <p>
-                  <i class="fa fa-phone mr-3"></i> + 01 317 437 4895</p>
-              <p>
-                  <i class="fa fa-print mr-3"></i></p>
-          </div>
-          <!--/.Fourth column-->
-
-      </div>
-  </div>
-  <!--/.Footer Links-->
-
-  <!-- Copyright-->
-
-  <!--/.Copyright -->
-
-</footer>
+            <div id="footerBar">
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+        
+                        <!--Grid column-->
+                        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0 white-text"></h6>
+                        </div>
+                        <!--Grid column-->
+        
+                        <!--Grid column-->
+                        <!-- <div class="col-md-6 col-lg-7 text-center text-md-right">
+                            <!--Facebook-->
+                            <!-- <a class="fb-ic ml-0">
+                                <i class="fa fa-facebook white-text mr-lg-4"> </i>
+                            </a>
+                            <!--Twitter -->
+                            <!-- <a class="tw-ic">
+                                <i class="fa fa-twitter white-text mr-lg-4"> </i>
+                            </a> -->
+                            <!--Google +-->
+                            <!-- <a class="gplus-ic">
+                                <i class="fa fa-google-plus white-text mr-lg-4"> </i>
+                            </a> -->
+                            <!--Linkedin-->
+                            <!-- <a class="li-ic">
+                                <i class="fa fa-linkedin white-text mr-lg-4"> </i>
+                            </a> -->
+                            <!--Instagram-->
+                            <!-- <a class="ins-ic">
+                                <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                            </a> -->
+                        <!-- </div> --> 
+                        <!--Grid column-->
+        
+                    </div>
+                    <!--Grid row-->
+                </div>
+            </div>
+        
+            <!--Footer Links-->
+            <div class="container mt-5 mb-4 text-center text-md-left">
+                <div class="row mt-3">
+        
+                    <!--First column-->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Alecx Moritz</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>Indianapolis based web developer and Furcadia dream weaver.</p>
+                    </div>
+                    <!--/.First column-->
+        
+                    <!--Second column-->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>PROJECTS</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="./pages/webDevelopment.html">Web Development</a>
+                        </p>
+                        <p>
+                            <a href="#"></a>
+                        </p>
+                        <p>
+                            <a href="#!"> </a>
+                        </p>
+                        <p>
+                            <a href="#!"> </a>
+                        </p>
+                    </div>
+                    <!--/.Second column-->
+        
+                    <!--Third column-->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>LINKS</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="https://github.com/AlecxMoritz" target="blank">github</a>
+                        </p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/alecx-moritz-81a1b615a/" target="blank">LinkedIn</a>
+                        </p>
+                        <p>
+                            <a href="https://codepen.io/ghastlyboi/" target="blank">CodePen</a>
+                        </p>
+                        <p>
+                            <a href="./pages/resume.html">Resume</a>
+                        </p>
+                    </div>
+                    <!--/.Third column-->
+        
+                    <!--Fourth column-->
+                    <div class="col-md-4 col-lg-3 col-xl-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Contact</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fa fa-home mr-3"></i>Indianapolis, IN</p>
+                        <p>
+                            <i class="fa fa-envelope mr-3"></i>alecxmoritz7@gmail.com</p>
+                        <p>
+                            <i class="fa fa-phone mr-3"></i> + 01 317 437 4895</p>
+                    </div>
+                    <!--/.Fourth column-->
+        
+                </div>
+            </div>
+            <!--/.Footer Links-->
+        
+            <!-- Copyright-->
+           
+            <!--/.Copyright -->
+        
+        </footer>
 
 </body>
 </html>

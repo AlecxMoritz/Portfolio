@@ -29,65 +29,53 @@
         </div>
     </div>
 
-    <!-- nav bar start -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Alecx Moritz</a>
-            </div>
+ <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark secondary-color">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="../index.html">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./webDevelopment.html">Web Development</a>
-                    </li>
-                    <li>
-                        <a href="./resume.html">Resume</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="./about.html">About</a>
-                            </li>
-                            <li role="separator" class="divider"></li>
-                            <li>
-                                <a href="./blog.html">Blog</a>
-                            </li>
-                            <li role="separator" class="divider"></li>
-                            <li>
-                                <a href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
-            <!-- /.navbar-collapse -->
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Alecx Moritz</a>
+    
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+    
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./webDevelopment.html">Web Development</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume.html">Resume</a>
+                </li>
+    
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./about.html">About</a>
+                        <a class="dropdown-item" href="./contact.html">Contact</a>
+                        
+                    </div>
+                </li>
+    
+            </ul>
+            <!-- Links -->
+    
         </div>
-        <!-- /.container-fluid -->
+        <!-- Collapsible content -->
+    
     </nav>
-
-
-
-
-    <!-- nav bar end -->
+    <!--/.Navbar-->
     <br>
     <br>
     <section>
@@ -115,7 +103,7 @@
                     </div>
 
                     <!-- Card content -->
-                    <div class="card-body text-center">
+                    <div style="background-color: rgb(114,131,167)" class="card-body text-center">
 
                         <!-- Title -->
                         <h4 style="font-size: 2em" class="card-title">
@@ -124,7 +112,7 @@
                         <!-- Subtitle -->
                         <h6 style="font-size: 1.2em;color: rgb(107,160,194)" class="font-weight-bold indigo-text py-2">HTML and CSS</h6>
                         <!-- Text -->
-                        <p style="font-size: 1.7em;" class="card-text">The ghost is built using HTML, and CSS. He is animated too! I used webkit animation on both him and the shadow.
+                        <p style="font-size: 1.7em;color: white;" class="card-text">The ghost is built using HTML, and CSS. He is animated too! I used webkit animation on both him and the shadow.
                         </p>
 
                         <!-- project link -->
@@ -151,7 +139,7 @@
                     </div>
 
                     <!-- Card content -->
-                    <div class="card-body text-center">
+                    <div style="background-color: rgb(114,131,167)" class="card-body text-center">
 
                         <!-- Title -->
                         <h4 style="font-size: 2em" class="card-title">
@@ -160,7 +148,7 @@
                         <!-- Subtitle -->
                         <h6 style="font-size: 1.2em;color: rgb(107,160,194)" class="font-weight-bold indigo-text py-2">HTML, CSS, and Bootstrap</h6>
                         <!-- Text -->
-                        <p style="font-size: 1.7em;" class="card-text">This is a rework of the first website I ever built. The original was built using only HTML and CSS, this verison
+                        <p style="font-size: 1.7em;color: white" class="card-text">This is a rework of the first website I ever built. The original was built using only HTML and CSS, this verison
                                 uses those, and Bootstrap for better mobile browsing and image scaling.
                         </p>
 
@@ -188,7 +176,7 @@
                     </div>
 
                     <!-- Card content -->
-                    <div class="card-body text-center">
+                    <div style="background-color:rgb(114,131,167)"class="card-body text-center">
 
                         <!-- Title -->
                         <h4 style="font-size: 2em" class="card-title">
@@ -197,7 +185,7 @@
                         <!-- Subtitle -->
                         <h6 style="font-size: 1.2em;color: rgb(107,160,194)" class="font-weight-bold indigo-text py-2">HTML, CSS, and JavaScript</h6>
                         <!-- Text -->
-                        <p style="font-size: 1.7em;" class="card-text">My move dex is built using HTML, CSS, and JavaScript You can see the moves description, see its power and accuracy
+                        <p style="font-size: 1.7em;color:white" class="card-text">My move dex is built using HTML, CSS, and JavaScript You can see the moves description, see its power and accuracy
                                 stats and damage type, and I have also included the moves priority.
                         </p>
 
@@ -225,7 +213,7 @@
                     </div>
 
                     <!-- Card content -->
-                    <div class="card-body text-center">
+                    <div style="background-color: rgb(114,131,167)" class="card-body text-center">
 
                         <!-- Title -->
                         <h4 style="font-size: 2em" class="card-title">
@@ -234,7 +222,7 @@
                         <!-- Subtitle -->
                         <h6 style="font-size: 1.2em;color: rgb(107,160,194)" class="font-weight-bold indigo-text py-2">PERN Stack</h6>
                         <!-- Text -->
-                        <p style="font-size: 1.7em;" class="card-text">shadr is built using a multitude of react based libraries, and mainly built upon PosgrSQL, Express, React, and Node.js. The application include validated signup, tokenization, and CRUD capabilities.
+                        <p style="font-size: 1.7em;color:white" class="card-text">shadr is built using a multitude of react based libraries, and mainly built upon PosgrSQL, Express, React, and Node.js. The application include validated signup, tokenization, and CRUD capabilities.
                         </p>
 
                         <!-- project link -->
@@ -257,131 +245,127 @@
     <!--Footer-->
     <footer class="page-footer font-small unique-color-dark pt-0" id="footer">
 
-        <div id="footerBar">
-            <div class="container">
-                <!--Grid row-->
-                <div class="row py-4 d-flex align-items-center">
-
-                    <!--Grid column-->
-                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                        <h6 class="mb-0 white-text"></h6>
+            <div id="footerBar">
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+        
+                        <!--Grid column-->
+                        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0 white-text"></h6>
+                        </div>
+                        <!--Grid column-->
+        
+                        <!--Grid column-->
+                        <!-- <div class="col-md-6 col-lg-7 text-center text-md-right">
+                            <!--Facebook-->
+                            <!-- <a class="fb-ic ml-0">
+                                <i class="fa fa-facebook white-text mr-lg-4"> </i>
+                            </a>
+                            <!--Twitter -->
+                            <!-- <a class="tw-ic">
+                                <i class="fa fa-twitter white-text mr-lg-4"> </i>
+                            </a> -->
+                            <!--Google +-->
+                            <!-- <a class="gplus-ic">
+                                <i class="fa fa-google-plus white-text mr-lg-4"> </i>
+                            </a> -->
+                            <!--Linkedin-->
+                            <!-- <a class="li-ic">
+                                <i class="fa fa-linkedin white-text mr-lg-4"> </i>
+                            </a> -->
+                            <!--Instagram-->
+                            <!-- <a class="ins-ic">
+                                <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                            </a> -->
+                        <!-- </div> --> 
+                        <!--Grid column-->
+        
                     </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6 col-lg-7 text-center text-md-right">
-                        <!--Facebook-->
-                        <a class="fb-ic ml-0">
-                            <i class="fa fa-facebook white-text mr-lg-4"> </i>
-                        </a>
-                        <!--Twitter-->
-                        <a class="tw-ic">
-                            <i class="fa fa-twitter white-text mr-lg-4"> </i>
-                        </a>
-                        <!--Google +-->
-                        <a class="gplus-ic">
-                            <i class="fa fa-google-plus white-text mr-lg-4"> </i>
-                        </a>
-                        <!--Linkedin-->
-                        <a class="li-ic">
-                            <i class="fa fa-linkedin white-text mr-lg-4"> </i>
-                        </a>
-                        <!--Instagram-->
-                        <a class="ins-ic">
-                            <i class="fa fa-instagram white-text mr-lg-4"> </i>
-                        </a>
+                    <!--Grid row-->
+                </div>
+            </div>
+        
+            <!--Footer Links-->
+            <div class="container mt-5 mb-4 text-center text-md-left">
+                <div class="row mt-3">
+        
+                    <!--First column-->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Alecx Moritz</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>Indianapolis based web developer and Furcadia dream weaver.</p>
                     </div>
-                    <!--Grid column-->
-
+                    <!--/.First column-->
+        
+                    <!--Second column-->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>PROJECTS</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="./pages/webDevelopment.html">Web Development</a>
+                        </p>
+                        <p>
+                            <a href="#"></a>
+                        </p>
+                        <p>
+                            <a href="#!"> </a>
+                        </p>
+                        <p>
+                            <a href="#!"> </a>
+                        </p>
+                    </div>
+                    <!--/.Second column-->
+        
+                    <!--Third column-->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>LINKS</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="https://github.com/AlecxMoritz" target="blank">github</a>
+                        </p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/alecx-moritz-81a1b615a/" target="blank">LinkedIn</a>
+                        </p>
+                        <p>
+                            <a href="https://codepen.io/ghastlyboi/" target="blank">CodePen</a>
+                        </p>
+                        <p>
+                            <a href="./pages/resume.html">Resume</a>
+                        </p>
+                    </div>
+                    <!--/.Third column-->
+        
+                    <!--Fourth column-->
+                    <div class="col-md-4 col-lg-3 col-xl-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Contact</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fa fa-home mr-3"></i>Indianapolis, IN</p>
+                        <p>
+                            <i class="fa fa-envelope mr-3"></i>alecxmoritz7@gmail.com</p>
+                        <p>
+                            <i class="fa fa-phone mr-3"></i> + 01 317 437 4895</p>
+                    </div>
+                    <!--/.Fourth column-->
+        
                 </div>
-                <!--Grid row-->
             </div>
-        </div>
-
-        <!--Footer Links-->
-        <div class="container mt-5 mb-4 text-center text-md-left">
-            <div class="row mt-3">
-
-                <!--First column-->
-                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <strong>Alecx Moritz</strong>
-                    </h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Indianapolis based web developer and Furcadia dream weaver.</p>
-                </div>
-                <!--/.First column-->
-
-                <!--Second column-->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <strong>PROJECTS</strong>
-                    </h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a href="webDevelopment.html">Web Development</a>
-                    </p>
-                    <p>
-                        <a href="#"></a>
-                    </p>
-                    <p>
-                        <a href="#!"> </a>
-                    </p>
-                    <p>
-                        <a href="#!"> </a>
-                    </p>
-                </div>
-                <!--/.Second column-->
-
-                <!--Third column-->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <strong>LINKS</strong>
-                    </h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a href="https://github.com/AlecxMoritz" target="blank">github</a>
-                    </p>
-                    <p>
-                        <a href="https://www.linkedin.com/in/alecx-moritz-81a1b615a/" target="blank">LinkedIn</a>
-                    </p>
-                    <p>
-                        <a href="https://codepen.io/ghastlyboi/" target="blank">CodePen</a>
-                    </p>
-                    <p>
-                        <a href="resume.html">Resume</a>
-                    </p>
-                </div>
-                <!--/.Third column-->
-
-                <!--Fourth column-->
-                <div class="col-md-4 col-lg-3 col-xl-3">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <strong>Contact</strong>
-                    </h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <i class="fa fa-home mr-3"></i>Indianapolis, IN</p>
-                    <p>
-                        <i class="fa fa-envelope mr-3"></i>alecxmoritz7@gmail.com</p>
-                    <p>
-                        <i class="fa fa-phone mr-3"></i> + 01 317 437 4895</p>
-                    <p>
-                        <i class="fa fa-print mr-3"></i>
-                    </p>
-                </div>
-                <!--/.Fourth column-->
-
-            </div>
-        </div>
-        <!--/.Footer Links-->
-
-        <!-- Copyright-->
-
-        <!--/.Copyright -->
-
-    </footer>
-
+            <!--/.Footer Links-->
+        
+            <!-- Copyright-->
+           
+            <!--/.Copyright -->
+        
+        </footer>
 </body>
 
 </html>
