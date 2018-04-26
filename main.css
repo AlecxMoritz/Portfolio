@@ -7,11 +7,6 @@ body, html {
 
 /* contact box collapse */
 
-@media only screen and (max-width: 1000px){
-    .contactText {
-        display: none;
-    }
-} 
 
 /* The hero image */
 .heroImage {
@@ -64,12 +59,15 @@ body, html {
 }
 
 #footer {
-    
+    position: relative;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
     color: rgb(202, 200, 200);
 }
 
 #footerBar {
-    background-color: rgb(69, 27, 90);
+    background-color: rgb(170,102,204);
     
 }
 
