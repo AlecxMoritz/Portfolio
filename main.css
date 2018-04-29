@@ -59,11 +59,18 @@ body, html {
 }
 
 #footer {
+<<<<<<< HEAD
     position: relative;
     margin: 0;
     bottom: 0;
     width: 100%;
+=======
+>>>>>>> develop
     color: rgb(202, 200, 200);
+}
+
+footer {
+    background-color: black
 }
 
 #footerBar {
