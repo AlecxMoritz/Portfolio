@@ -64,8 +64,11 @@ body, html {
 }
 
 #footer {
-    
     color: rgb(202, 200, 200);
+}
+
+footer {
+    background-color: black
 }
 
 #footerBar {
